@@ -1,7 +1,7 @@
-FROM Mohammedsafwat090/Talithoun-Muhammad-:alpine
+FROM Mohammedsafwat090/Talithoun-Muhammad:alpine
 
 #clonning repo 
-RUN git clone https://github.com/Mohammedsafwat090/Talithoun-Muhammad-.git /root/userbot
+RUN git clone https://github.com/Mohammedsafwat090/Talithoun-Muhammad.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
